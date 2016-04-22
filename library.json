@@ -1,0 +1,21 @@
+{
+    "name": "PowerSave",
+    "keywords": "powersave, power, save,",
+    "description": "The functions in this module assist with reducing power consumption on Arduino boards by disabling features that are not used or putting the device to sleep when it is inactive.",
+    "authors":
+    {
+        "name": "rweather",
+        "email": "rhys.weatherley@gmail.com",
+        "url": "https://rweather.github.io/arduinolibs/"
+    },
+    "dependencies": { },
+    "exclude": ["keywords.txt"],
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/harmon25/arduinolibs",
+        "branch": "powersave-dep" 
+    },
+    "frameworks": "arduino",
+    "platforms": "atmelavr"
+}
